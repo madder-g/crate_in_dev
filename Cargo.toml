@@ -1,0 +1,7 @@
+[package]
+name = "crate_in_dev"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+super_secrate = "0.1.0" # private crate, set up default registry in .cargo/config 
